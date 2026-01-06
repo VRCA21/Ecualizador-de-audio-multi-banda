@@ -27,6 +27,19 @@ Una vez instaladas las dependencias, puedes iniciar la aplicación ejecutando:
 
 python Ecualizador.py
 
+Para evitar conflictos con otras librerías y asegurar que el programa funcione correctamente, se recomienda utilizar un **entorno virtual**. Sigue estos pasos en tu terminal (CMD o PowerShell):
+
+### 1. Crear el Entorno Virtual
+Abre la terminal en la carpeta del proyecto y ejecuta:
+python -m venv .venv
+
+### 2. Activar el entorno
+
+- En CMD:
+.venv\Scripts\activate
+- En PowerShell:
+.venv\Scripts\Activate.ps1
+
 # Guía de Uso
 1. Cargar Audios:
   - Utiliza el botón "1. Cargar Voz" para seleccionar tu audio principal.
